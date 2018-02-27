@@ -1,5 +1,5 @@
 class Ship
-  attr_accessor :name, :type, :booty 
+  attr_accessor :name, :type, :booty
 
   ships = []
 
@@ -7,15 +7,15 @@ class Ship
     @name = details[:name]
     @type = details[:type]
     @booty = details[:booty]
-    ships << self 
-  end 
+    ships << self
+  end
 
-  def self.all 
-    ships 
-  end 
+  def self.all
+    ships
+  end
 
-  def self.clear 
-    ships.clear 
-  end 
-  
+  def self.clear
+    ships.clear
+  end
+
 end
